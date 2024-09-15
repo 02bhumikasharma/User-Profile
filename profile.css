@@ -1,0 +1,99 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color:black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+.profile-box {
+    background-color: white;
+    width: 90%;
+    max-width: 400px;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.profile-img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+h3 {
+    margin: 15px 0;
+    font-size: 24px;
+    color: #333;
+}
+
+p {
+    font-size: 14px;
+    line-height: 1.5;
+    color: #555;
+    margin-bottom: 15px;
+}
+
+.contact p {
+    margin-bottom: 8px;
+}
+
+.profile-links {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.profile-links a {
+    text-decoration: none;
+    padding: 10px 15px;
+    margin: 5px 0;
+    color: white;
+    border-radius: 5px;
+    width: 100%;
+    text-align: center;
+}
+
+.instagram {
+    background-color: #C13584;
+}
+
+.github {
+    background-color: #333;
+}
+
+.youtube {
+    background-color: #FF0000;
+}
+
+.directions {
+    background-color: #007BFF;
+}
+
+@media (min-width: 768px) {
+    .profile-box {
+        max-width: 600px;
+    }
+
+    .profile-links {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .link {
+        flex: 1;
+        text-align: center;
+        margin: 0 5px;
+}
+}
