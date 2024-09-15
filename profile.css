@@ -86,14 +86,7 @@ p {
         max-width: 600px;
     }
 
-    .profile-links {
-        flex-direction: row;
-        justify-content: space-between;
+    .profile-links a {
+        width: 48%;
     }
-
-    .link {
-        flex: 1;
-        text-align: center;
-        margin: 0 5px;
-}
 }
